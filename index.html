@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Twitter</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <nav> <!-- Aquí está el menú -->
+      <section>
+        <section id="menu">
+         <div class="buttons-menu">
+           <span class="inicio" href="#"><i class="fa fa-home icon" aria-hidden="true"></i>&ensp;Inicio</span>
+           <span class="inicio" href="#"><i class="fa fa-bolt icon" aria-hidden="true"></i>&ensp;Momentos</span>
+           <span class="inicio" href="#"><i class="fa fa-bell-o icon" aria-hidden="true"></i>&ensp;Notificaciones</span>
+           <span class="inicio" href="#"><i class="fa fa-envelope-o icon" aria-hidden="true"></i>&ensp;Mensajes</span>
+         </div>
+       </section>
+        <i id="twit" href="#" class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+        <section id="floating">
+        <input type="text" name="" placeholder="Buscar en Twitter">
+        <button type="button" name="button">Twittear</button>
+      </section>
+      <img class="user" src="css/assets/images/cat.jpg" alt="user picture">
+      </section>
+
+    </nav>
+      <section class="clear" id="container">
+        <section>
+          <div class="container-column" id="column1">
+            <img src="css/assets/images/columna1.jpg" alt="">
+            <img src="css/assets/images/columna1-1.jpg" alt="">
+          </div>
+          <div class="container-column" id="column2"> <!-- para meter chingo de texto<textarea rows="5" cols="61"></textarea> -->
+<!------>
+<form>
+  <img id="picture" src="css/assets/images/cat.jpg" alt="user picture">
+  <textarea  id="message" placeholder="¿Qué está pasando?"></textarea>
+  <p id="contador"><span id="span-contentSpan">
+  </span>
+  </p>
+  <!--textarea define un control de entrada de texto multilínea, con un número ilimitado de caracteres-->
+  <input id="public-bottom" id="second-button" type="submit" value="Twittear">
+
+</form>
+
+<!--En está section se agregaran los comentarios de los Tweets publicados-->
+<section id="comments" class="public-tweet">
+
+</section>
+
+<!--
+            <section id="write"> <!-- lo chido del ejercicio ya está aquí -->
+<!--                <button id="second-button" type="button" name="button">Twittear</button>
+            </section>-->
+
+
+            <img src="css/assets/images/columna2.jpg" alt="">
+          </div>
+          <div class="container-column" id="column3">
+            <img src="css/assets/images/columna3.jpg" alt="">
+            <img src="css/assets/images/columna3-1.jpg" alt="">
+          </div>
+        </section>
+
+      </section>
+    <script src="js/app.js"></script>
+  </body>
+</html>

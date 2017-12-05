@@ -1,0 +1,190 @@
+body{
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+}
+nav{
+  background-color: white;
+  color: white;
+  width: 100%;
+  height: 46px;
+  border-bottom: gray solid 1px;
+  vertical-align: middle;
+  position: fixed;
+}
+nav>section{
+  margin-top: 8px;
+}
+#menu{
+  width: 450px;
+  height: 30px;
+  margin-top: 7px;
+  display: inline-block;
+}
+#buttons-menu{
+  margin-top: 14px;
+}
+.icon{
+  color: gray;
+}
+
+.inicio{
+  height: 30px;
+  margin-left: 15px;
+  color: gray;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  font-weight: 900;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+#twit{
+  color: #2FC2EF;
+  left: 600px;
+  position: absolute;
+}
+#floating{
+  float: right;
+  margin-top: 0;
+  width: 360px;
+}
+input{
+  background-color: #F5F8FA;
+  border-radius: 7px;
+  border: lightgray solid 1px;
+}
+.user{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: absolute;
+  right: 150px;
+}
+button{
+  background-color: #2FC2EF;
+  border: none;
+  color: white;
+  width: 90px;
+  height: 35px;
+  border-radius: 7px;
+  right: 15px;
+  margin-left: 47px;
+}
+form>input,button,#twittear,.inicio,#twit,#picture,.user:hover{
+  cursor: pointer;
+}
+.clear{
+  clear: both;
+}
+#container{
+  width: 100%;
+  height: 500px;
+  background-color: #E6ECF0;
+}
+#container>section{
+  margin-left: 10px;
+  background-color: #E6ECF0;
+}
+.container-column{
+  display: inline-block;
+  vertical-align: middle;
+  height: 500px;
+  margin: 5px;
+  margin-top: 60px;
+}
+#column1{
+  background-color: #E6ECF0;
+  width: 289px;
+  margin-left: 22px;
+}
+#column2{
+  background-color: #E6ECF0;
+  width: 588px;
+  margin-top: 60px;
+}
+#column2>section#write{
+  height: 126px;
+  width: 100%;
+  background-color: #EAF8FD;
+}
+/*#second-button {
+  margin-top: 80px;
+  margin-left: 480px;
+}*/
+#column3{
+  background-color: #E6ECF0;
+  width: 289px;
+}
+
+#comments > div {
+  margin-bottom: 5px;
+  background-color: white;
+}
+form{
+  background-color:#EAF8FD;
+}
+form>p{
+  width: 50px;
+  display: inline-block;
+}
+form>p>span>span{
+  width: 25px;
+  margin-left: 500px;
+}
+#message { /*Estilo de donde escribes*/
+  color: gray;
+  height: 81px;
+  border: #ABE6F8 solid 2px;
+  border-radius: 10px;
+  font-family:monospace;
+  margin-top: 15px;
+  margin-left: 58px;
+  outline: none;
+  resize: none;
+  width: 507px;
+  text-align: justify;
+  }
+label{ /*estilo de la publicación*/
+  font-size: 13px;
+  text-align: justify;
+  margin-left: 15px;
+  padding-bottom: 3px;
+}
+
+#comments > div > p { /*Estilo del reloj*/
+  font-size: 10px;
+  font-style: italic;
+  color: lightgray;
+  margin: 0px;
+  margin-left: 15px;
+  padding-top: 3px;
+}
+/*Botón para publicar */
+form > input {
+  background-color: #2FC2EF;
+  border: none;
+  color: white;
+  width: 90px;
+  height: 35px;
+  border-radius: 7px;
+  right: 15px;
+  margin-left: 3px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+form>input,button:focus{
+  outline: none;
+}
+#picture{
+    left: 350px;
+    top: 78px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    right: 150px;
+}
+#contador>span>span{
+  margin-left: 548px;
+}
